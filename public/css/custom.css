@@ -1,0 +1,47 @@
+
+.portal-logo{width:200px; padding:0 5px;}
+.portal-logo img{width: 100%;}
+.rounded-lg {border-radius: 0.5rem !important;}
+
+.setting-list{padding:5px 5px 25px;font-size: 16px;font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;color: #24292e;}
+.setting-list li{list-style: none;;border-bottom:1px solid rgba(225, 228, 232, 0.65);padding:15px 5px;}
+.setting-list li:last-child{border:none;}
+.setting-list li p{margin-bottom:0.25rem;}
+
+@media (min-width: 576px) {
+  .portal-logo{width:350px;padding:0 25px;}
+  .portal-logo img{width:300px;}
+
+  .d-sm-none {
+    display: none !important;
+  }
+  .d-sm-inline {
+    display: inline !important;
+  }
+  .d-sm-inline-block {
+    display: inline-block !important;
+  }
+  .d-sm-block {
+    display: block !important;
+  }
+  .d-sm-table {
+    display: table !important;
+  }
+  .d-sm-table-row {
+    display: table-row !important;
+  }
+  .d-sm-table-cell {
+    display: table-cell !important;
+  }
+  .d-sm-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .d-sm-inline-flex {
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+  }
+}
+
